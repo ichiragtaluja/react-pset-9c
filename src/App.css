@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  background: #ffffff;
+}
+
+.product-card {
+  /* border: 1px solid rgb(255, 254, 254); */
+  width: 250px;
+  height: 360px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 2px 0px 34px -4px rgba(217, 217, 217, 0.53);
+}
+
+.product-card img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card p {
+  margin: 5px;
+}
+
+.product-card h3 {
+  margin: 15px;
+  padding: 0px;
+}
